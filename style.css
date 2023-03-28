@@ -612,22 +612,15 @@ h3 {
   color: #000;
 }
 
-<<<<<<< HEAD
 /* ------------Contact me part------------ */
-=======
-/* -------Contact me part--------- */
 
->>>>>>> main
 .contact-me {
   background-color: #6070ff;
   background-image: url(images/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: 265px;
   background-position: right;
-<<<<<<< HEAD
   height: 779px;
-=======
->>>>>>> main
   display: flex;
   border-radius: 60px 0 0 0;
   flex-direction: column;
@@ -677,8 +670,6 @@ h3 {
   line-height: 20px;
   font-family: "Poppins", sans-serif;
 }
-<<<<<<< HEAD
-=======
 
 button {
   font-family: "Poppins", serif;
@@ -691,4 +682,3 @@ button {
   border-radius: 10px;
   background-color: #fff;
 }
->>>>>>> main
