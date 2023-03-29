@@ -684,4 +684,10 @@ button {
   border-radius: 10px;
   background-color: #fff;
   border: none;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #1a2236;
+  color: #ffff;
 }
