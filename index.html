@@ -18,11 +18,22 @@
       <nav>
         <a href="#">Binod Bhusal</a>
         <img class="vector" src="images/Icon - Menu.png" alt="" />
+        <ul>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <div class="headline">
-        <h1>I’m Binod. Glad to see you!</h1>
+        <h1>I’m Binod. <br> Glad to see you!</h1>
         <p>
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
@@ -55,7 +66,7 @@
         </ul>
       </div>
       <!----------------------Portfolio Changes Second Part--------------------->
-      <section>
+      <section id="card-section">
         <div class="cards">
           <div class="card_container1">
             <img
@@ -178,8 +189,127 @@
           </div>
         </div>
       </section>
+      
+<!-- --------------------------------Desktop Version --Grid layout------------------------ -->
+     <section>
+        <div class="cards-desk-container">
+
+          <!-- ------Card1 container--------------------- -->
+         <div class="card1">
+            <img src="images/SnapshootPortfolio.png" alt="">
+          </div>
+
+          <!-- ------Card2 container--------------------- -->
+          <div class="card2">
+            <h3>Tonic</h3>
+           
+            <ul id="first-ul">
+              <li id="canopy">CANOPY</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">Back End Dev</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">2015</li>
+            </ul>
+            
+            <p id="p1">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+
+            <ul id="second-ul">
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+
+            <button class="btn_project">See Project</button>
+          </div>
+
+          <!-- ------Card3 container--------------------- -->
+          <div class="card3">
+            <h3>Multi-Post Stories</h3>
+            <ul id="first-ul">
+              <li id="canopy">FACEBOOK</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">Full Stack</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">2015</li>
+            </ul>
+            <p id="p1">
+              Experimental content creation feature that 
+              allows users to add to an existing story over the course of a day without spamming their friends.
+            </p>
+            <ul id="second-ul">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+            <button class="btn_project">See Project</button>
+          </div>
+        <!-- ------Card4 container--------------------- -->
+        <div class="card4">
+          <img src="images/SnapshootPortfolio12.png" alt="">
+        </div>
+        <!-- ------Card5 container--------------------- -->
+        <div class="card5">
+          <img src="images/SnapshootPortfoliocard5.png" alt="">
+        </div>
+        <!-- ------Card6 container--------------------- -->
+        <div class="card6">
+          <h3>Facebook 360</h3>
+            <ul id="first-ul">
+              <li id="canopy">FACEBOOK</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">Full Stack</li>
+              <img id="counter" src="images/Counter.png" alt="" />
+              <li id="backend">2015</li>
+            </ul>
+            <p id="p1">
+              Exploring the future of media in 
+              Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            </p>
+            <ul id="second-ul">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+            <button class="btn_project">See Project</button>
+        </div>
+        <div class="card7">
+          <h3>Uber Navigation</h3>
+          <ul id="first-ul">
+            <li id="canopy">UBER</li>
+            <img id="counter" src="images/Counter.png" alt="" />
+            <li id="backend">Lead Developer</li>
+            <img id="counter" src="images/Counter.png" alt="" />
+            <li id="backend">2018</li>
+          </ul>
+          <p id="p1">
+            A smart assistant to 
+            make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+          </p>
+          <ul id="second-ul">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button class="btn_project">See Project</button>
+        </div>
+        <div class="card8">
+          <img src="images/SnapshootPortfolio8.png" alt="">
+        </div>
+      </div>
+    </section>
+      <!-- --------div container close----- -->
+   
+        <!-- --------abobe this-------- -->
+        
+      
       <!-- --------------------------About myself part----------- -->
-      <section>
+        <div class="about">
         <div class="about_container">
           <h2>About Myself</h2>
           <p class="about_p">
@@ -213,22 +343,28 @@
             </li>
           </ul>
           <button id="btnget">Get my resume</button>
+        </div>
+
+
+        <div class="myskills">
           <div class="lang">
             <p>Languages</p>
             <i class="fa-solid fa-chevron-down"></i>
           </div>
+          <div class="tech-skills">
           <ul id="javascript">
-            <img src="images/Ellipse 1.png" alt="" />
-            <li>Java Script</li>
+            <li><img src="images/Ellipse 1.png" alt="" />
+            Java Script</li>
           </ul>
           <ul id="html">
-            <img src="images/html.png" alt="" />
-            <li>HTML</li>
+            <li><img src="images/html.png" alt="" />
+            HTML</li>
           </ul>
           <ul id="css">
-            <img src="images/css.png" alt="" />
-            <li>CSS</li>
+            <li><img src="images/css.png" alt="" />
+           CSS</li>
           </ul>
+        </div>
           <div class="frame">
             <p>Frameworks</p>
             <i class="fa-solid fa-chevron-right"></i>
@@ -239,7 +375,13 @@
             <i class="fa-solid fa-chevron-right"></i>
           </div>
         </div>
-      </section>
+        
+        </div>  
+      <!-- ------about container close-------------- -->
+    </main>
+  
+      
+     
       <section id="sectionlast">
         <div class="contact">
           <h2>Contact me</h2>
@@ -251,12 +393,14 @@
           <form action="https://formspree.io/f/mzbqjbed" method="POST">
             <input name="username" id="form" type="text" maxlength="30" placeholder="Name" required/>
             <input name="email" id="form" type="email" placeholder="email@domain.com" required/>
-            <textarea name="textarr" id="textarea1" cols="30" rows="10" placeholder="Enter message here" maxlength="500"required>
+            <textarea name="textarr" id="textarea1" cols="30" rows="10" placeholder="Write your message here..."></textarea>
             </textarea>
+           
            <button name="btn1" type="submit">Get in touch</button>
+          </form>
         </div>
       </section>
-    </main>
+   
 
     <script src="https://kit.fontawesome.com/6b06b10d98.js" crossorigin="anonymous">
     </script>
