@@ -1173,4 +1173,9 @@ button:active {
     margin-left: auto;
     margin-right: auto;
   }
+
+  button :hover {
+    color: #396df2;
+  }
+
 }
