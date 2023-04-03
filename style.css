@@ -11,6 +11,8 @@ body {
 
 main {
   background-color: #e5e5e5;
+  margin-right: 0;
+  padding: 0;
 }
 
 nav {
@@ -469,12 +471,13 @@ h3 {
   padding: 0;
   margin: 0 0 0 1.5rem;
   list-style: none;
+  display: flex;
 }
 
-.about_container li {
-  display: inline-block;
-  margin: 0 19px 0 0;
-  flex: 3;
+.about_container ul li {
+  float: left;
+  margin: 0 1rem 0 0;
+  justify-content: baseline;
 }
 
 .about_container .connect {
@@ -689,6 +692,11 @@ h3 {
   color: #172b4d;
   line-height: 1.25rem;
   padding: 0 0.5rem;
+  outline: none;
+}
+
+::placeholder {
+  transition: 0.5s;
 }
 
 #textarea1 {
@@ -702,6 +710,7 @@ h3 {
   line-height: 1.25rem;
   padding: 0 0.5rem;
   height: 10.625rem;
+  outline: none;
 }
 
 button {
@@ -718,7 +727,7 @@ button {
 }
 
 button:active {
-  background-color: #2230d2;
+  background-color: #fff;
 }
 
 .myskills {
@@ -778,6 +787,8 @@ button:active {
 
   main {
     background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
   }
 
   #vector {
@@ -813,224 +824,241 @@ button:active {
 
   .cards-desk-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    row-gap: 0;
-    column-gap: 0;
-    max-width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   #card-section {
     display: none;
   }
 
+  .card1 img {
+    margin: 1.5rem;
+    width: 100%;
+    height: auto;
+  }
+
   .card1 {
     grid-column: 1/2;
-    grid-row: 1/2;
     background-color: #fff;
-    margin-left: 142px;
-    margin-bottom: 142px;
-    margin-right: 0;
     border-radius: 24px 0 0 24px;
+    margin-left: 142px;
     max-width: 100%;
-  }
-
-  .card1 img {
-    margin: 24px 22px 24px 24px;
-  }
-
-  .card5 img {
-    margin: 24px 22px 24px 24px;
-  }
-
-  .card4 img {
-    margin: 24px 22px 24px 24px;
-  }
-
-  .card8 img {
-    margin: 24px 22px 24px 24px;
+    height: auto;
+    margin-bottom: 142px;
+    padding-right: 3rem;
   }
 
   .card2 {
-    margin-bottom: 142px;
     grid-column: 2/3;
-    grid-row: 1/2;
     background-color: #fff;
-    background-size: contain;
-    margin-right: 142px;
     border-radius: 0 24px 24px 0;
-    margin-left: 0;
-    padding: 0;
+    margin-right: 142px;
     max-width: 100%;
+    margin-bottom: 142px;
+    margin-left: 0;
+    height: auto;
   }
 
   .card3 {
     grid-column: 1/2;
-    grid-row: 2/3;
     background-color: #fff;
-    background-size: contain;
     border-radius: 24px 0 0 24px;
     margin-left: 142px;
-    padding: 0;
-    height: 496px;
+    max-width: 100%;
+    margin-bottom: 142px;
+    height: auto;
   }
 
   .card4 {
     grid-column: 2/3;
-    grid-row: 2/3;
     background-color: #fff;
-    background-size: contain;
+    border-radius: 0 1.5rem 1.5rem 0;
     margin-right: 142px;
-    border-radius: 0 24px 24px 0;
-    margin-left: 0;
-    padding: 0;
-    height: 496px;
+    margin-bottom: 142px;
+    padding-right: 3rem;
+    max-width: 100%;
+  }
+
+  .card4 img {
+    width: 100%;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    height: auto;
+  }
+
+  .card5 img {
+    margin: 1.5rem;
+    width: 100%;
+    height: auto;
   }
 
   .card5 {
     grid-column: 1/2;
-    grid-row: 3/4;
     background-color: #fff;
     margin-left: 142px;
-    background-size: contain;
-    border-radius: 24px 0 0 24px;
-    height: 496px;
+    border-radius: 1.5rem 0 0 1.5rem;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 142px;
+    padding-right: 3rem;
   }
 
   .card6 {
     grid-column: 2/3;
-    grid-row: 3/4;
     background-color: #fff;
     margin-right: 142px;
     border-radius: 0 24px 24px 0;
     margin-left: 0;
     padding: 0;
-    height: 496px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 142px;
   }
 
   .card7 {
     grid-column: 1/2;
-    grid-row: 4/5;
     background-color: #fff;
     margin-left: 142px;
     background-size: contain;
     border-radius: 24px 0 0 24px;
-    height: 496px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 142px;
+  }
+
+  .card8 img {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem;
+    padding-right: 3rem;
   }
 
   .card8 {
     grid-column: 2/3;
-    grid-row: 4/5;
     background-color: #fff;
     margin-right: 142px;
     border-radius: 0 24px 24px 0;
     margin-left: 0;
     padding: 0;
-    height: 496px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 142px;
   }
 
   .card2 h3 {
-    margin: 48px 46px 20px 22px;
-  }
-
-  .card2 .first_list9 {
-    list-style: none;
-    display: flex;
-  }
-
-  .card2 #second_list_D {
-    list-style: none;
-    background-color: none;
+    margin: 3rem 2.875rem 1.25rem 1.375rem;
   }
 
   #second-ul {
     list-style: none;
     display: flex;
-    margin-left: 23px;
-    padding: 0;
-    gap: 8px;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    margin-left: 1.5rem;
+  }
+
+  .about_container li {
+    max-width: 100%;
   }
 
   #second-ul li {
     font-family: "Poppins", sans-serif;
     background-color: #ebebff;
-    padding: 5px 8px;
-    border-radius: 8px;
+    padding: 4px 8px;
+    align-items: baseline;
+    border-radius: 0.5rem;
     color: #6070ff;
     letter-spacing: 0.03em;
-    font-size: 12px;
+    font-size: 0.75rem;
+    position: relative;
+  }
+
+  .card3 #second-ul {
+    margin-left: 48px;
   }
 
   #first-ul {
     list-style: none;
     display: flex;
-    margin-left: 23px;
+    margin-left: 1.5rem;
     padding: 0;
     gap: 8px;
+    margin-bottom: 2rem;
+    margin-right: 24px;
   }
 
   #p1 {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #344563;
-    line-height: 24px;
+    line-height: 1.5rem;
     font-style: normal;
-    margin-left: 23px;
-    margin-right: 46px;
-    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right: 2.875rem;
+    max-width: 100%;
+    margin-bottom: 1.75rem;
   }
 
   .card2 .btn_project {
-    margin-left: 23px;
+    margin-left: 1.5rem;
+    max-width: 100%;
   }
 
   .card3 h3 {
-    margin: 48px 46px 0 46px;
-  }
-
-  .card7 h3 {
-    margin: 48px 46px 0 46px;
-  }
-
-  .card6 h3 {
-    margin: 48px 0 0 23px;
-  }
-
-  .card6 .btn_project {
-    margin: 28px 46px 0 23px;
-  }
-
-  .card3 #p1 {
-    margin: 32px 46px 0 46px;
-  }
-
-  .card7 #p1 {
-    margin: 32px 46px 0 46px;
+    margin: 3rem 0 1.25rem 2.875rem;
+    max-width: 100%;
   }
 
   .card3 #first-ul {
-    margin: 32px 46px 0 46px;
+    margin-left: 3rem;
+  }
+
+  .card7 h3 {
+    margin: 3rem 0 1.25rem 2.875rem;
+    max-width: 100%;
   }
 
   .card7 #first-ul {
-    margin: 32px 46px 0 46px;
+    margin-left: 3rem;
   }
 
-  .card3 #second-ul {
-    margin: 24px 46px 0 46px;
+  .card6 #first-ul {
+    margin-left: 1.5rem;
+  }
+
+  .card6 h3 {
+    margin: 3rem 2.875rem 1.25rem 1.375rem;
+    max-width: 100%;
   }
 
   .card7 #second-ul {
-    margin: 24px 46px 0 46px;
+    margin-left: 3rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card6 .btn_project {
+    margin: 28px 46px 1.5rem 23px;
+    max-width: 100%;
+  }
+
+  .card3 #p1 {
+    margin: 2rem 2.875rem 0 2.875rem;
+  }
+
+  .card7 #p1 {
+    margin: 2rem 2.875rem 0 2.875rem;
   }
 
   .card3 .btn_project {
-    margin: 38px 46px 0 46px;
+    margin-left: 3rem;
+    max-width: 100%;
   }
 
   .card7 .btn_project {
-    margin: 38px 46px 0 46px;
+    margin-left: 3rem;
+    max-width: 100%;
   }
 
   .about {
@@ -1047,6 +1075,8 @@ button:active {
     grid-row: 1/2;
     margin-left: 143px;
     margin-top: 166px;
+    max-width: 100%;
+    height: auto;
   }
 
   .about_container h2 {
@@ -1065,6 +1095,7 @@ button:active {
     margin-left: 24px;
     margin-right: 182px;
     padding: 0;
+    max-width: 100%;
   }
 
   #javascript {
@@ -1073,12 +1104,14 @@ button:active {
     height: 120px;
     padding: 0;
     margin: 0;
+    max-width: 100%;
   }
 
   #javascript img {
     display: block;
     width: 48px;
     height: 48px;
+    max-width: 100%;
   }
 
   #html {
@@ -1087,12 +1120,14 @@ button:active {
     height: 120px;
     padding: 0;
     margin: 0;
+    max-width: 100%;
   }
 
   #html img {
     display: block;
     width: 48px;
     height: 48px;
+    max-width: 100%;
   }
 
   #css {
@@ -1101,12 +1136,14 @@ button:active {
     height: 120px;
     padding: 0;
     margin: 0;
+    max-width: 100%;
   }
 
   #css img {
     display: block;
     width: 48px;
     height: 48px;
+    max-width: 100%;
   }
 
   .tech-skills {
@@ -1115,6 +1152,7 @@ button:active {
     margin: 0;
     justify-content: baseline;
     gap: 12px;
+    max-width: 100%;
   }
 
   .about_container .about_p {
@@ -1124,6 +1162,7 @@ button:active {
     font-size: 16px;
     line-height: 24px;
     text-align: justify;
+    max-width: 100%;
   }
 
   .contact {
@@ -1132,6 +1171,7 @@ button:active {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    max-width: 100%;
   }
 
   form {
@@ -1142,6 +1182,7 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
   }
 
   .contact p {
@@ -1150,6 +1191,7 @@ button:active {
     color: #ebebff;
     font-size: 20px;
     line-height: 28px;
+    max-width: 100%;
   }
 
   #textarea1 {
@@ -1158,10 +1200,12 @@ button:active {
     font-size: 15px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+    transition: 0.5ms;
   }
 
   #form {
     border-radius: 0;
+    max-width: 100%;
   }
 
   .contact h2 {
@@ -1169,12 +1213,44 @@ button:active {
     margin-bottom: 0;
   }
 
-  button {
-    margin-left: auto;
-    margin-right: auto;
+  .btnget {
+    transition: 0.7s;
   }
 
-  button :hover {
+  .btnget:hover {
+    background-color: #396df2;
+    color: #fff;
+  }
+
+  :hover::placeholder {
+    color: #396df2;
+    font-size: 1.25rem;
+    transform: translate(3ch, 3mm);
+  }
+
+  button:active {
+    background-color: #fff;
+    color: #396df2;
+  }
+
+  .social {
+    justify-content: baseline;
+  }
+
+  .social:hover {
+    transform: scale(0.7);
+  }
+
+  nav .mylogo {
+    transform: rotate(-20deg);
+    transition: 1s;
+  }
+
+  .mylogo:hover {
+    transform: scale(0.8);
+  }
+
+  nav li a:hover {
     color: #396df2;
   }
 }
