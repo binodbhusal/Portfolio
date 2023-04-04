@@ -35,12 +35,12 @@ nav a {
   margin-top: 1rem;
 }
 
-#vector {
+.vector {
   margin-right: 1.5rem;
   margin-top: 1rem;
 }
 
-.headline h4 {
+.headline h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 1.25rem;
@@ -77,7 +77,6 @@ nav a {
   font-weight: 400;
   color: #344563;
   font-style: normal;
-  line-height: 1.5rem;
 }
 
 .headline ul {
@@ -195,12 +194,12 @@ h3 {
   line-height: 2.75rem;
 }
 
-#second_list {
+.second_list {
   margin: 1rem 0 0 0;
   padding: 0;
 }
 
-#second_list1 {
+.second_list1 {
   background-color: #ebebff;
   margin-right: 0.625rem;
   margin-left: 1rem;
@@ -213,7 +212,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2 {
+.second_list2 {
   background-color: #ebebff;
   margin-right: 0.625rem;
   margin-left: 1rem;
@@ -226,7 +225,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3 {
+.second_list3 {
   background-color: #ebebff;
   margin-right: 0.625rem;
   margin-left: 1rem;
@@ -264,7 +263,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1B {
+.second_list1B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -276,7 +275,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2B {
+.second_list2B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -288,7 +287,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3B {
+.second_list3B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -300,7 +299,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_B {
+.second_list_B {
   padding: 0;
   margin: 1rem 0 0 1rem;
 }
@@ -330,7 +329,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1C {
+.second_list1C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -342,7 +341,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2C {
+.second_list2C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -354,7 +353,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3C {
+.second_list3C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -366,7 +365,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_C {
+.second_list_C {
   padding: 0;
   margin-left: 1rem 0 0 1rem;
 }
@@ -396,7 +395,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1D {
+.second_list1D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -408,7 +407,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2D {
+.second_list2D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -420,7 +419,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3D {
+.second_list3D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -432,7 +431,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_D {
+.second_list_D {
   padding: 0;
   margin-left: 1rem 0 0 1rem;
 }
@@ -463,7 +462,7 @@ h3 {
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: #344563;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   margin-left: 1.5rem;
 }
 
@@ -507,7 +506,7 @@ h3 {
   margin-bottom: 3.75rem;
 }
 
-.about_container h4 {
+.about_container h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
@@ -519,7 +518,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -636,7 +635,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -644,7 +643,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -681,7 +680,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
 }
 
-#form {
+.form {
   margin: 0 1.5rem 1.25rem 1.5rem;
   width: 20.4375rem;
   height: 3rem;
@@ -768,7 +767,7 @@ button:active {
     font-size: 3rem;
   }
 
-  .headline h4 {
+  .headline h2 {
     margin-left: 260px;
     margin-top: 0;
   }
@@ -781,8 +780,8 @@ button:active {
     color: #344563;
     align-items: center;
     margin: 0 260px 12px 260px;
-    line-height: 28px;
-    font-size: 20px;
+    line-height: 1.5em;
+    font-size: 1.25rem;
   }
 
   main {
@@ -948,7 +947,7 @@ button:active {
     margin: 3rem 2.875rem 1.25rem 1.375rem;
   }
 
-  #second-ul {
+  .second-ul {
     list-style: none;
     display: flex;
     gap: 0.5rem;
@@ -961,7 +960,7 @@ button:active {
     max-width: 100%;
   }
 
-  #second-ul li {
+  .second-ul li {
     font-family: 'Poppins', sans-serif;
     background-color: #ebebff;
     padding: 4px 8px;
@@ -973,11 +972,11 @@ button:active {
     position: relative;
   }
 
-  .card3 #second-ul {
+  .card3 .second-ul {
     margin-left: 48px;
   }
 
-  #first-ul {
+  .first-ul {
     list-style: none;
     display: flex;
     margin-left: 1.5rem;
@@ -987,7 +986,7 @@ button:active {
     margin-right: 24px;
   }
 
-  #p1 {
+  .p1 {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -1010,7 +1009,7 @@ button:active {
     max-width: 100%;
   }
 
-  .card3 #first-ul {
+  .card3 .first-ul {
     margin-left: 3rem;
   }
 
@@ -1019,11 +1018,11 @@ button:active {
     max-width: 100%;
   }
 
-  .card7 #first-ul {
+  .card7 .first-ul {
     margin-left: 3rem;
   }
 
-  .card6 #first-ul {
+  .card6 .first-ul {
     margin-left: 1.5rem;
   }
 
@@ -1032,7 +1031,7 @@ button:active {
     max-width: 100%;
   }
 
-  .card7 #second-ul {
+  .card7 .second-ul {
     margin-left: 3rem;
     max-width: 100%;
     height: auto;
@@ -1043,11 +1042,11 @@ button:active {
     max-width: 100%;
   }
 
-  .card3 #p1 {
+  .card3 .p1 {
     margin: 2rem 2.875rem 0 2.875rem;
   }
 
-  .card7 #p1 {
+  .card7 .p1 {
     margin: 2rem 2.875rem 0 2.875rem;
   }
 
@@ -1159,9 +1158,8 @@ button:active {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5em;
     max-width: 100%;
   }
 
@@ -1189,8 +1187,8 @@ button:active {
     width: 30%;
     margin-top: 12px;
     color: #ebebff;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.5em;
     max-width: 100%;
   }
 
@@ -1203,7 +1201,7 @@ button:active {
     transition: 0.5ms;
   }
 
-  #form {
+  .form {
     border-radius: 0;
     max-width: 100%;
   }
