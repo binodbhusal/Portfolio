@@ -196,18 +196,30 @@ h3 {
 }
 
 #second_list {
+<<<<<<< HEAD
   margin: 1rem 0 0 0;
   padding: 0;
+=======
+  float: left;
+  gap: 10px;
+>>>>>>> portfolio_pair
 }
 
 #second_list1 {
   background-color: #ebebff;
+<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
+=======
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 16px;
+>>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
@@ -215,12 +227,19 @@ h3 {
 
 #second_list2 {
   background-color: #ebebff;
+<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
+=======
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 16px;
+>>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
@@ -228,12 +247,19 @@ h3 {
 
 #second_list3 {
   background-color: #ebebff;
+<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
+=======
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 16px;
+>>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
