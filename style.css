@@ -40,13 +40,8 @@ nav a {
   margin-top: 1rem;
 }
 
-<<<<<<< HEAD
-.headline h2 {
-  font-family: 'Poppins', sans-serif;
-=======
 .headline h4 {
   font-family: "Poppins", sans-serif;
->>>>>>> e7a855e04e981f7ef09dcd9d1f36c6f318c3dc73
   font-weight: 500;
   line-height: 1.25rem;
   font-size: 1rem;
@@ -511,19 +506,6 @@ h3 {
   margin-bottom: 3.75rem;
 }
 
-<<<<<<< HEAD
-.about_container h2 {
-  font-family: 'Poppins', sans-serif;
-=======
-.about_container h4 {
-  font-family: "Poppins", sans-serif;
->>>>>>> e7a855e04e981f7ef09dcd9d1f36c6f318c3dc73
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  color: #000;
-}
-
 .lang p {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
@@ -970,13 +952,8 @@ button:active {
     max-width: 100%;
   }
 
-<<<<<<< HEAD
   .second-ul li {
     font-family: 'Poppins', sans-serif;
-=======
-  #second-ul li {
-    font-family: "Poppins", sans-serif;
->>>>>>> e7a855e04e981f7ef09dcd9d1f36c6f318c3dc73
     background-color: #ebebff;
     padding: 4px 8px;
     align-items: baseline;
