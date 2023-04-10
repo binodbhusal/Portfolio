@@ -15,4 +15,7 @@ closeBtn.addEventListener('click', () => {
   headline.style.filter = 'blur(0)';
   mylogo.style.filter = 'blur(0)';
   menuLogo.style.visibility = 'visible';
+  menuBar.style.transition = '0.5s';
 });
+
+
