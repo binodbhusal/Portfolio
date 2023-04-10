@@ -47,7 +47,6 @@ nav .mylogo {
   text-align: left;
   color: #6070ff;
   font-weight: 700;
-  margin-top: 1rem;
   margin-right: 1.5rem;
 }
 
@@ -787,12 +786,18 @@ button:active {
     line-height: 2rem;
     cursor: pointer;
     outline: none;
-    border-width: 95%;
     border: none;
   }
-
+#btncross {
+width: 12px;
+height: 12px;
+background: none;
+color: #fff;
+margin-top: 0;
+}
   #vector {
     cursor: pointer;
+    margin-right: 1.5rem;
   }
 }
 
@@ -1302,8 +1307,9 @@ button:active {
   }
 
   nav .mylogo {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
     transition: 1s;
+    margin-top: 0.7rem;
   }
 
   .mylogo:hover {
