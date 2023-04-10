@@ -48,6 +48,7 @@ nav .mylogo {
   color: #6070ff;
   font-weight: 700;
   margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .headline h4 {
@@ -788,13 +789,15 @@ button:active {
     outline: none;
     border: none;
   }
-#btncross {
-width: 12px;
-height: 12px;
-background: none;
-color: #fff;
-margin-top: 0;
-}
+
+  #btncross {
+    width: 12px;
+    height: 12px;
+    background: none;
+    color: #fff;
+    margin-top: 0;
+  }
+
   #vector {
     cursor: pointer;
     margin-right: 1.5rem;
