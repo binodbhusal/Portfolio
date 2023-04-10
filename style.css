@@ -30,6 +30,10 @@ nav {
 
 header {
   position: fixed;
+  z-index: 1000;
+  opacity: 80%;
+  width: 100%;
+  justify-self: center;
 }
 
 nav .mylogo {
@@ -43,19 +47,10 @@ nav .mylogo {
   text-align: left;
   color: #6070ff;
   font-weight: 700;
-  margin-left: 1.5rem;
   margin-top: 1rem;
   margin-right: 1.5rem;
 }
-header {
-  background-color: white;
-  position: fixed;
-  z-index: 1000;
-  opacity: 95%;
-  width: 100%;
-  display: grid;
-  justify-self: center;
-}
+
 .headline h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -860,7 +855,6 @@ button:active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
