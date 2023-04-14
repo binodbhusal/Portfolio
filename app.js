@@ -42,3 +42,10 @@ form.addEventListener('submit', (event) => {
   emailError.innerHTML = '';
   form.submit();
 });
+
+//local storage 
+const form = document.querySelector('#myform');
+const emailCheck = form.querySelector('#email');
+const emailError = form.querySelector('#emailError');
+const nameCheck = form.querySelector('#name');
+
