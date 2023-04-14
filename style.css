@@ -693,7 +693,7 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
-.form {
+.form1 {
   margin: 0 1.5rem 1.25rem 1.5rem;
   width: 20.4375rem;
   height: 3rem;
@@ -755,6 +755,90 @@ button:active {
   .cards-desk-container {
     display: none;
   }
+/* popup section ---------------------------------------------------------------------- */
+/* mobile version----Popup section--------------------------------------------- */
+.linkbtn {
+  border: 1px solid #396DF2;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.list-item span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070FF;
+  background: #EBEBFF;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+.list-item {
+
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.descriptiontxt {
+  margin-top: 20px;
+  
+}
+.card img {
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  display: block;
+}
+
+.icon12 {
+width: 15px;
+height: 15px;
+}
+#linkbutton {
+margin-top: 10px;
+margin-left: 25px;
+}
+.popup {
+    width: 100vw; /* maximum width for desktop */
+    margin: 0 auto; /* center the popup horizontally */
+    padding: 20px;
+    height: 100vh;
+    background: #fff;
+    top: 3rem;
+    overflow-y: auto;
+  }
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    overflow-y: auto;
+  }
+  .closebtn1 {
+    position: absolute;
+    top: -25px;
+    right: 7px;
+    color: #000;
+    font-size: 20px;
+    width: 10%;
+
+  }
+   
+  .card {
+    padding: 10px 10px;
+  } 
+  #listitem li {
+    list-style: none;
+  }
+  
+/* pop section-----End------------------------------------------------------------------------ */
 
   .nav-item {
     display: block;
@@ -805,6 +889,131 @@ button:active {
 }
 
 @media (min-width: 768px) {
+  /* popup section--------------------------------------- */
+  #card-container {
+    width: 100%;
+    max-width: 100%;
+    height: 1163px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+.deskimg {
+  width: 96%;
+  height: 500px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#canopy {
+  margin-left: 24px;
+}
+.list-item {
+
+  margin-bottom: 25px;
+  display: inline-block;  
+}
+#tech1 {
+  margin-left: 40px;
+  gap: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex-basis: 70%;
+  margin-left: 24px;
+}
+.column1 {
+  margin-left: 24px;
+  flex-basis: 30%;
+}
+#desktext {
+  margin-bottom: 16px;
+  margin-right: 24px;
+}
+#desktext {
+  margin-left: 30px;
+}
+  .linkbtn {
+    border: 1px solid #396DF2;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 24px;
+  }
+  .icon12 {
+  width: 15px;
+  height: 15px;
+  }
+  #linkbutton {
+  margin-top: 30px;
+  margin-left: 25px;
+  }
+  .popup {
+    /* maximum width for desktop */
+    max-width: 100%;
+    margin: auto; /* center the popup horizontally */
+    top: 3rem;
+    background: #fff;
+    height: 1163px;
+    overflow-y: auto;
+  } 
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 1156px;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+      overflow-y: auto;
+    }
+    .closebtn1 {
+      position: absolute;
+      top: -25px;
+      right: 7px;
+      color: #000;
+      font-size: 20px;
+      width: 10%;
+      
+    }
+    .descriptiontxt {
+      margin-top: 30px;
+      
+    }
+    .card ul li{
+     display: inline-block;
+      list-style: none;
+      background: #EBEBFF;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 2px 10px;
+      font-size: 12px;
+      border-radius: 8px;
+      color: #6070ff;
+    } 
+    .card {
+      padding: 10px 10px;
+    } 
+    #listitem li {
+      list-style: none;
+    }
+  
+  /* popup section end  */
+  
   .headline {
     background-image: url(images/headerimg.png);
     background-size: 97% 100%;
@@ -1242,7 +1451,7 @@ button:active {
     max-width: 100%;
   }
 
-  form {
+  #myform {
     border: none;
     color: #172b4d;
     line-height: 20px;
@@ -1271,7 +1480,7 @@ button:active {
     transition: 0.5ms;
   }
 
-  .form {
+  .form1 {
     border-radius: 0;
     max-width: 100%;
   }

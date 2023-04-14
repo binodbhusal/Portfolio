@@ -70,6 +70,8 @@
           </li>
         </ul>
       </div>
+      <section><div id="popup-container"></div></section>
+
       <!----------------------Portfolio Changes Second Part--------------------->
       <section id="card-section">
         <div class="cards">
@@ -99,7 +101,7 @@
                 <li class="second_list3">JAVA SCRIPT</li>
               </ul>
 
-              <button class="btn_project">See Project</button>
+              <button  class="btn_project">See Project</button>
             </div>
           </div>
           <!-- ------card container 2 --------------------- -->
@@ -129,7 +131,7 @@
                 <li class="second_list3B">JAVA SCRIPT</li>
               </ul>
 
-              <button class="btn_project">See Project</button>
+              <button id="btnprojrec2" class="btn_project">See Project</button>
             </div>
           </div>
           <!-- ------card container 3--------------------- -->
@@ -159,7 +161,7 @@
                 <li class="second_list3C">JAVA SCRIPT</li>
               </ul>
 
-              <button class="btn_project">See Project</button>
+              <button class="btn_project2 btn_project">See Project</button>
             </div>
           </div>
           <!-- ------card container 4--------------------- -->
@@ -189,7 +191,7 @@
                 <li class="second_list3D">JAVA SCRIPT</li>
               </ul>
 
-              <button class="btn_project">See Project</button>
+              <button class="btn_project3 btn_project">See Project</button>
             </div>
           </div>
         </div>
@@ -227,7 +229,7 @@
               <li>javaScript</li>
             </ul>
 
-            <button class="btn_project">See Project</button>
+            <button  id="btnprojectdesktop1" class="btn_project">See Project</button>
           </div>
 
           <!-- ------Card3 container--------------------- -->
@@ -250,7 +252,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button class="btn_project">See Project</button>
+            <button id="btnprojectdesktop2" class="btn_project">See Project</button>
           </div>
         <!-- ------Card4 container--------------------- -->
         <div class="card4">
@@ -280,7 +282,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button class="btn_project">See Project</button>
+            <button id="btnprojectdesktop3" class="btn_project">See Project</button>
         </div>
         <div class="card7">
           <h3>Uber Navigation</h3>
@@ -301,7 +303,7 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <button class="btn_project">See Project</button>
+          <button id="btnprojectdesktop4" class="btn_project">See Project</button>
         </div>
         <div class="card8">
           <img src="images/SnapshootPortfolio8.png" alt="project8">
@@ -390,12 +392,15 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it!
           </p>
-          <form action="https://formspree.io/f/mzbqjbed" method="POST">
-            <input name="username" class="form" type="text" maxlength="30" placeholder="Name" required/>
-            <input name="email" class="form" type="email" placeholder="email@domain.com" required/>
+          <form id="myform" action="https://formspree.io/f/mzbqjbed" method="POST">
+            <input name="username" class="form1" type="text" maxlength="30" placeholder="Name" required/>
+            <div id="emailError"></div>
+            <input name="email" id ="email" class="form1" type="email" placeholder="email@domain.com" required/>
+            
+
             <textarea name="textarr" id="textarea1" cols="30" rows="10" placeholder="Write your message here..."></textarea>
             </textarea>
-           
+
            <button class="btnget" aria-label="get in touch" name="btn1" type="submit">Get in touch</button>
           </form>
         </div>
