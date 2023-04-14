@@ -30,6 +30,250 @@ closeBtn.addEventListener('click', () => {
 });
 
 // Pup menu version Part--------------------------------------------------------------------
+const body = document.getElementById('project-section');
+const section = document.createElement('section');
+body.appendChild(section);
+section.innerHTML = `
+<section id="card-section">
+        <div class="cards">
+          <div class="card_container1">
+            <img
+              class="snap_img"
+              src="images/Snapshoot Portfolio (1).png"
+              alt="project1"
+            />
+            <div class="card_content1">
+              <h3>Tonic</h3>
+              <ul class="first_list">
+                <li class="canopy">CANOPY</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Back End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2015</li>
+              </ul>
+              <p class="second_line">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="second_list">
+                <li class="second_list1">HTML</li>
+                <li class="second_list2">CSS</li>
+                <li class="second_list3">JAVA SCRIPT</li>
+              </ul>
+
+              <button  class="btn_project">See Project</button>
+            </div>
+          </div>
+          <!-- ------card container 2 --------------------- -->
+          <div class="card_container2">
+            <img
+              class="snap_img"
+              src="images/Snapshoot Portfolio (3).png"
+              alt="project2"
+            />
+            <div class="card_content2">
+              <h3>Multi-Post Stories</h3>
+              <ul class="first_list2">
+                <li class="canopy">CANOPY</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Back End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2015</li>
+              </ul>
+              <p class="second_line">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="second_list_B">
+                <li class="second_list1B">HTML</li>
+                <li class="second_list2B">CSS</li>
+                <li class="second_list3B">JAVA SCRIPT</li>
+              </ul>
+
+              <button id="btnprojrec2" class="btn_project">See Project</button>
+            </div>
+          </div>
+          <!-- ------card container 3--------------------- -->
+          <div class="card_container3">
+            <img
+              class="snap_img"
+              src="images/Snapshoot Portfolio (2).png"
+              alt="project3"
+            />
+            <div class="card_content2">
+              <h3>Tonic</h3>
+              <ul class="first_list3">
+                <li class="canopy">CANOPY</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Back End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2015</li>
+              </ul>
+              <p class="second_line">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="second_list_C">
+                <li class="second_list1C">HTML</li>
+                <li class="second_list2C">CSS</li>
+                <li class="second_list3C">JAVA SCRIPT</li>
+              </ul>
+
+              <button class="btn_project2 btn_project">See Project</button>
+            </div>
+          </div>
+          <!-- ------card container 4--------------------- -->
+          <div class="card_container4">
+            <img
+              class="snap_img"
+              src="images/Snapshoot Portfolio (4).png"
+              alt="project4"
+            />
+            <div class="card_content4">
+              <h3>Mulit-Post Stories</h3>
+              <ul class="first_list4">
+                <li class="canopy">CANOPY</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Back End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2015</li>
+              </ul>
+              <p class="second_line">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="second_list_D">
+                <li class="second_list1D">HTML</li>
+                <li class="second_list2D">CSS</li>
+                <li class="second_list3D">JAVA SCRIPT</li>
+              </ul>
+
+              <button class="btn_project3 btn_project">See Project</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+<!-- --------------------------------Desktop Version--Grid layout-------------------------->
+     <section id="card-section1">
+        <div class="cards-desk-container">
+
+          <!-- ------Card1 container--------------------- -->
+         <div class="card1">
+            <img src="images/SnapshootPortfolio.png" alt="project1">
+          </div>
+
+          <!-- ------Card2 container--------------------- -->
+          <div class="card2">
+            <h3>Tonic</h3>
+           
+            <ul class="first-ul">
+              <li class="canopy">CANOPY</li>
+              <img class="counter" src="images/Counter.png" alt="dotlogo" />
+              <li class="backend">Back End Dev</li>
+              <img class="counter" src="images/Counter.png" alt="dotlogo" />
+              <li class="backend">2015</li>
+            </ul>
+            
+            <p class="p1">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+
+            <ul class="second-ul">
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+
+            <button  id="btnprojectdesktop1" class="btn_project">See Project</button>
+          </div>
+
+          <!-- ------Card3 container--------------------- -->
+          <div class="card3">
+            <h3>Multi-Post Stories</h3>
+            <ul class="first-ul">
+              <li class="canopy">FACEBOOK</li>
+              <img class="counter" src="images/Counter.png" alt="dotologo" />
+              <li class="backend">Full Stack</li>
+              <img class="counter" src="images/Counter.png" alt="dotologo" />
+              <li class="backend">2015</li>
+            </ul>
+            <p class="p1">
+              Experimental content creation feature that 
+              allows users to add to an existing story over the course of a day without spamming their friends.
+            </p>
+            <ul class="second-ul">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+            <button id="btnprojectdesktop2" class="btn_project">See Project</button>
+          </div>
+        <!-- ------Card4 container--------------------- -->
+        <div class="card4">
+          <img src="images/SnapshootPortfolio12.png" alt="project4">
+        </div>
+        <!-- ------Card5 container--------------------- -->
+        <div class="card5">
+          <img src="images/SnapshootPortfoliocard5.png" alt="project5">
+        </div>
+        <!-- ------Card6 container--------------------- -->
+        <div class="card6">
+          <h3>Facebook 360</h3>
+            <ul class="first-ul">
+              <li class="canopy">FACEBOOK</li>
+              <img class="counter" src="images/Counter.png" alt="dotlogo" />
+              <li class="backend">Full Stack</li>
+              <img class="counter" src="images/Counter.png" alt="dotlogo" />
+              <li class="backend">2015</li>
+            </ul>
+            <p class="p1">
+              Exploring the future of media in 
+              Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            </p>
+            <ul class="second-ul">
+              <li>html</li>
+              <li>Ruby on rails</li>
+              <li>css</li>
+              <li>javaScript</li>
+            </ul>
+            <button id="btnprojectdesktop3" class="btn_project">See Project</button>
+        </div>
+        <div class="card7">
+          <h3>Uber Navigation</h3>
+          <ul class="first-ul">
+            <li class="canopy">UBER</li>
+            <img class="counter" src="images/Counter.png" alt="dotlogo" />
+            <li class="backend">Lead Developer</li>
+            <img class="counter" src="images/Counter.png" alt="dotologo" />
+            <li class="backend">2018</li>
+          </ul>
+          <p class="p1">
+            A smart assistant to 
+            make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+          </p>
+          <ul class="second-ul">
+            <li>html</li>
+            <li>Ruby on rails</li>
+            <li>css</li>
+            <li>javaScript</li>
+          </ul>
+          <button id="btnprojectdesktop4" class="btn_project">See Project</button>
+        </div>
+        <div class="card8">
+          <img src="images/SnapshootPortfolio8.png" alt="project8">
+        </div>
+      </div>
+    </section>
+  </section>
+`;
+
 // objects stored in dynamic above-------------------------------------------------------
 const data = [
   {
