@@ -28,17 +28,3 @@ closeBtn.addEventListener('click', () => {
   menuLogo.style.visibility = 'visible';
   menuBar.style.transition = '0.2s';
 });
-const form = document.querySelector('#myform');
-const emailCheck = form.querySelector('#email');
-const emailError = form.querySelector('#emailError');
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const emailValue = emailCheck.value;
-  if (emailValue !== emailValue.toLowerCase()) {
-    emailError.innerHTML = 'please type email in lower case';
-    return;
-  }
-  emailError.innerHTML = '';
-  form.submit();
-});
