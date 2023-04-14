@@ -218,3 +218,17 @@ button8.addEventListener('click', () => {
 });
 
 // button click event ends------------------------------------------------------------------
+const form = document.querySelector('#myform');
+const emailCheck = form.querySelector('#email');
+const emailError = form.querySelector('#emailError');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailValue = emailCheck.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    emailError.innerHTML = 'please type email in lower case';
+    return;
+  }
+  emailError.innerHTML = '';
+  form.submit();
+});
