@@ -890,6 +890,17 @@ margin-left: 25px;
 
 @media (min-width: 768px) {
   /* popup section--------------------------------------- */
+  .list-item span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070FF;
+    background: #EBEBFF;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+  }
+
   #card-container {
     width: 100%;
     max-width: 100%;
