@@ -44,8 +44,19 @@ form.addEventListener('submit', (event) => {
 });
 
 //local storage 
-const form = document.querySelector('#myform');
-const emailCheck = form.querySelector('#email');
-const emailError = form.querySelector('#emailError');
-const nameCheck = form.querySelector('#name');
+cconst form = document.getElementById('myform');
+const nameInput = document.getElementById('myname');
+const emailInput = document.getElementById('myemail');
+const textarrInput = document.getElementById('textarea1');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
+  const getData = {
+    nameInput: nameInput.value,
+    email: emailInput.value,
+    textarr: textarrInput.value,
+  };
+  localStorage.setItem('getData', JSON.stringify(getData));
+  const allFormData = JSON.parse(localStorage.getItem('getData'));
+  console.log(allFormData);
+});
