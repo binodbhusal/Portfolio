@@ -808,7 +808,7 @@ button:active {
   }
 
   .popup {
-    width: 100vw;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     height: 100vh;
