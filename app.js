@@ -29,7 +29,7 @@ closeBtn.addEventListener('click', () => {
   menuBar.style.transition = '0.2s';
 });
 const form = document.querySelector('#myform');
-const emailCheck = form.querySelector('#email');
+const emailCheck = form.querySelector('#myemail');
 const emailError = form.querySelector('#emailError');
 
 form.addEventListener('submit', (event) => {
@@ -43,11 +43,10 @@ form.addEventListener('submit', (event) => {
   form.submit();
 });
 
-//local storage 
-cconst form = document.getElementById('myform');
+// local storage
 const nameInput = document.getElementById('myname');
 const emailInput = document.getElementById('myemail');
-const textarrInput = document.getElementById('textarea1');
+const textarrInput = document.getElementById('mytextarr');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
