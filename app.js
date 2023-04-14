@@ -162,6 +162,7 @@ function displayCards(index) {
   popup.innerHTML = cardHTML;
   const popupcontainer = document.getElementById('popup-container');
   popupcontainer.appendChild(popup);
+
   // popup overlay
   if (window.innerWidth > 768) {
     popup.style.height = '1000px';
