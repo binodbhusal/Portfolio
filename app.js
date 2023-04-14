@@ -221,7 +221,7 @@ button8.addEventListener('click', () => {
 const form = document.querySelector('#myform');
 const emailCheck = form.querySelector('#email');
 const emailError = form.querySelector('#emailError');
-
+// Form Validation starts----------------------------------------------------------------------
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const emailValue = emailCheck.value;
@@ -232,3 +232,4 @@ form.addEventListener('submit', (event) => {
   emailError.innerHTML = '';
   form.submit();
 });
+// Form Validation ends----------------------------------------------------------------------
