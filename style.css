@@ -794,7 +794,6 @@ button:active {
   #linkbutton {
     margin-top: 0;
     margin-left: 25px;
-   
   }
 
   .popup {
@@ -835,9 +834,11 @@ button:active {
   .card {
     margin-left: 9px;
   }
+
   .card img {
     margin-top: 17px;
   }
+
   #listitem li {
     list-style: none;
   }
