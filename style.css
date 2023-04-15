@@ -1005,11 +1005,10 @@ button:active {
   .closebtn1 {
     position: absolute;
     top: 0;
-    right:0;
+    right: 0;
     color: #000;
     font-size: 30px;
     width: 10%;
-
   }
 
   .descriptiontxt {
