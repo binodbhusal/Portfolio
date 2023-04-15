@@ -43,7 +43,7 @@ section.innerHTML = `
               alt="project1"
             />
             <div class="card_content1">
-              <h3>Tonic</h3>
+              <h3 class=title>Tonic</h3>
               <ul class="first_list">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
@@ -355,7 +355,6 @@ const data = [
 function displayCards(index) {
   const card = data[index];
   let cardHTML = '';
-
   // Mobile version
   if (window.innerWidth <= 768) {
     cardHTML = ` 

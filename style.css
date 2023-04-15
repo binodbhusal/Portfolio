@@ -817,6 +817,11 @@ button:active {
     overflow-y: auto;
   }
 
+  .popup h3 {
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
   .popup-overlay {
     position: fixed;
     top: 0;
@@ -831,7 +836,7 @@ button:active {
   .closebtn1 {
     position: absolute;
     top: -25px;
-    right: 7px;
+    right: 25px;
     color: #000;
     font-size: 20px;
     width: 10%;
