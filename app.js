@@ -363,7 +363,7 @@ function displayCards(index) {
           <button class=closebtn1>&times;</button>
           <h3>${card.name}</h3>
           ${card.listItems1}
-          <img src="${card.imageUrl}"<br>
+          <img id=crdimg src="${card.imageUrl}"
          <p class=descriptiontxt>${card.description}</p>
           ${card.technologies}
           </div>

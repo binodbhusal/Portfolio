@@ -778,23 +778,12 @@ button:active {
     background: #ebebff;
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
-    margin-top: 24px;
+    margin-top: 12px;
   }
 
   .list-item {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     display: inline-block;
-  }
-
-  .descriptiontxt {
-    margin-top: 20px;
-  }
-
-  .card img {
-    left: 0;
-    right: 0;
-    max-width: 100%;
-    display: block;
   }
 
   .icon12 {
@@ -803,23 +792,24 @@ button:active {
   }
 
   #linkbutton {
-    margin-top: 10px;
+    margin-top: 0;
     margin-left: 25px;
+   
   }
 
   .popup {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
-    height: 100vh;
+    padding: 25px 8px;
+    height: 100%;
     background: #fff;
     top: 3rem;
     overflow-y: auto;
   }
 
   .popup h3 {
-    margin-top: -20px;
-    margin-left: -10px;
+    margin-top: -5px;
+    margin-left: -5px;
   }
 
   .popup-overlay {
@@ -843,9 +833,11 @@ button:active {
   }
 
   .card {
-    padding: 10px 10px;
+    margin-left: 9px;
   }
-
+  .card img {
+    margin-top: 17px;
+  }
   #listitem li {
     list-style: none;
   }
