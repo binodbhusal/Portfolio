@@ -1004,8 +1004,8 @@ button:active {
 
   .closebtn1 {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -24px;
+    right: -24px;
     color: #000;
     font-size: 30px;
     width: 10%;
