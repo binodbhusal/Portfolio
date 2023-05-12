@@ -895,6 +895,7 @@ button:active {
 }
 
 @media (min-width: 768px) {
+<<<<<<< HEAD
   /* popup section--------------------------------------- */
   .list-item span {
     display: inline-block;
@@ -1033,6 +1034,15 @@ button:active {
 
   /* popup section end  */
 
+=======
+  #emailError {
+    color: red;
+    background: yellow;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+>>>>>>> form-validation
   .headline {
     background-image: url(images/headerimg.png);
     background-size: 97% 100%;

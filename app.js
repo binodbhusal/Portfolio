@@ -28,6 +28,7 @@ closeBtn.addEventListener('click', () => {
   menuLogo.style.visibility = 'visible';
   menuBar.style.transition = '0.2s';
 });
+<<<<<<< HEAD
 
 // Pup menu version Part--------------------------------------------------------------------
 const body = document.getElementById('project-section');
@@ -462,6 +463,8 @@ button8.addEventListener('click', () => {
 });
 
 // button click event ends------------------------------------------------------------------
+=======
+>>>>>>> form-validation
 const form = document.querySelector('#myform');
 const emailCheck = form.querySelector('#email');
 const emailError = form.querySelector('#emailError');
