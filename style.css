@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 main {
@@ -20,24 +25,30 @@ nav {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  border: none;
 }
 
-nav a {
+header {
+  position: fixed;
+  z-index: 1000;
+  opacity: 80%;
+  width: 100%;
+  justify-self: center;
+}
+
+nav .mylogo {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   line-height: 1.25rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: normal;
   display: flex;
+  flex-direction: column;
+  text-align: left;
   color: #6070ff;
   font-weight: 700;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-}
-
-#vector {
   margin-right: 1.5rem;
-  margin-top: 1rem;
+  margin-left: 1.5rem;
 }
 
 .headline h4 {
@@ -77,7 +88,6 @@ nav a {
   font-weight: 400;
   color: #344563;
   font-style: normal;
-  line-height: 1.5rem;
 }
 
 .headline ul {
@@ -126,7 +136,7 @@ nav a {
   margin-bottom: 1.25rem;
 }
 
-#counter {
+.counter {
   width: 0.5rem;
   height: 0.5rem;
   margin-top: 0.3125rem;
@@ -196,7 +206,6 @@ h3 {
 }
 
 #second_list {
-<<<<<<< HEAD
   margin: 1rem 0 0 0;
   padding: 0;
 =======
@@ -205,7 +214,7 @@ h3 {
 >>>>>>> portfolio_pair
 }
 
-#second_list1 {
+.second_list1 {
   background-color: #ebebff;
 <<<<<<< HEAD
   margin-right: 0.625rem;
@@ -225,7 +234,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2 {
+.second_list2 {
   background-color: #ebebff;
 <<<<<<< HEAD
   margin-right: 0.625rem;
@@ -245,7 +254,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3 {
+.second_list3 {
   background-color: #ebebff;
 <<<<<<< HEAD
   margin-right: 0.625rem;
@@ -290,7 +299,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1B {
+.second_list1B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -302,7 +311,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2B {
+.second_list2B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -314,7 +323,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3B {
+.second_list3B {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -326,7 +335,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_B {
+.second_list_B {
   padding: 0;
   margin: 1rem 0 0 1rem;
 }
@@ -356,7 +365,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1C {
+.second_list1C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -368,7 +377,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2C {
+.second_list2C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -380,7 +389,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3C {
+.second_list3C {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -392,9 +401,19 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_C {
+.second_list_C {
   padding: 0;
   margin-left: 1rem 0 0 1rem;
+}
+
+.headline .connect {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  font-style: normal;
+  color: #7f8cff;
+  margin-left: 1.5rem;
 }
 
 /* ---------card container 4--------- */
@@ -422,7 +441,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 
-#second_list1D {
+.second_list1D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -434,7 +453,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list2D {
+.second_list2D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -446,7 +465,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list3D {
+.second_list3D {
   background-color: #ebebff;
   margin-right: 0.625rem;
   border-radius: 0.5rem;
@@ -458,7 +477,7 @@ h3 {
   font-weight: 500;
 }
 
-#second_list_D {
+.second_list_D {
   padding: 0;
   margin-left: 1rem 0 0 1rem;
 }
@@ -489,7 +508,7 @@ h3 {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   color: #344563;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   margin-left: 1.5rem;
 }
 
@@ -533,19 +552,11 @@ h3 {
   margin-bottom: 3.75rem;
 }
 
-.about_container h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  color: #000;
-}
-
 .lang p {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -662,7 +673,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -670,7 +681,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.5em;
   color: #000;
 }
 
@@ -707,7 +718,7 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
-#form {
+.form {
   margin: 0 1.5rem 1.25rem 1.5rem;
   width: 20.4375rem;
   height: 3rem;
@@ -766,20 +777,72 @@ button:active {
 }
 
 @media (max-width: 768px) {
-  #nav-item {
+  .cards-desk-container {
     display: none;
   }
 
-  .cards-desk-container {
-    display: none;
+  .nav-item {
+    display: block;
+    position: absolute;
+    background-color: #6070ff;
+    width: 100%;
+    mix-blend-mode: multiply;
+    height: 100vh;
+    list-style: none;
+    visibility: hidden;
+    z-index: 1;
+  }
+
+  .nav-item a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+
+  .nav-item li {
+    margin-top: 1.25rem;
+  }
+
+  #btnclose {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+
+  #btncross {
+    width: 12px;
+    height: 12px;
+    background: none;
+    color: #fff;
+    margin-top: 0;
+  }
+
+  #vector {
+    cursor: pointer;
+    margin-right: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
+  #emailError {
+    color: red;
+    background: yellow;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
   .headline {
     background-image: url(images/headerimg.png);
-    background-size: 100% 100%;
+    background-size: 97% 100%;
+    background-position: center center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #fff;
     border-radius: 0 0 0 60px;
@@ -794,21 +857,27 @@ button:active {
     font-size: 3rem;
   }
 
-  .headline h4 {
+  .headline .connect {
     margin-left: 260px;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .headline ul {
     margin-left: 260px;
+    margin-top: 0;
   }
 
   .headline p {
     color: #344563;
     align-items: center;
     margin: 0 260px 12px 260px;
-    line-height: 28px;
-    font-size: 20px;
+    line-height: 1.5em;
+    font-size: 1.25rem;
+  }
+
+  .portfolio {
+    margin-top: 0;
   }
 
   main {
@@ -824,20 +893,25 @@ button:active {
   nav {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
-  #nav-item ul {
+  .nav-item ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     margin: 0 7.9375rem 0 0;
-  }
-
-  nav a {
-    margin-top: 25px;
+    background: none;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
   }
 
   nav li a {
@@ -846,6 +920,7 @@ button:active {
     font-weight: 500;
     font-style: normal;
     color: #344563;
+    margin-right: 0;
   }
 
   .cards-desk-container {
@@ -974,7 +1049,7 @@ button:active {
     margin: 3rem 2.875rem 1.25rem 1.375rem;
   }
 
-  #second-ul {
+  .second-ul {
     list-style: none;
     display: flex;
     gap: 0.5rem;
@@ -987,8 +1062,8 @@ button:active {
     max-width: 100%;
   }
 
-  #second-ul li {
-    font-family: "Poppins", sans-serif;
+  .second-ul li {
+    font-family: 'Poppins', sans-serif;
     background-color: #ebebff;
     padding: 4px 8px;
     align-items: baseline;
@@ -999,11 +1074,11 @@ button:active {
     position: relative;
   }
 
-  .card3 #second-ul {
+  .card3 .second-ul {
     margin-left: 48px;
   }
 
-  #first-ul {
+  .first-ul {
     list-style: none;
     display: flex;
     margin-left: 1.5rem;
@@ -1013,7 +1088,7 @@ button:active {
     margin-right: 24px;
   }
 
-  #p1 {
+  .p1 {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -1036,7 +1111,7 @@ button:active {
     max-width: 100%;
   }
 
-  .card3 #first-ul {
+  .card3 .first-ul {
     margin-left: 3rem;
   }
 
@@ -1045,11 +1120,11 @@ button:active {
     max-width: 100%;
   }
 
-  .card7 #first-ul {
+  .card7 .first-ul {
     margin-left: 3rem;
   }
 
-  .card6 #first-ul {
+  .card6 .first-ul {
     margin-left: 1.5rem;
   }
 
@@ -1058,7 +1133,7 @@ button:active {
     max-width: 100%;
   }
 
-  .card7 #second-ul {
+  .card7 .second-ul {
     margin-left: 3rem;
     max-width: 100%;
     height: auto;
@@ -1069,11 +1144,11 @@ button:active {
     max-width: 100%;
   }
 
-  .card3 #p1 {
+  .card3 .p1 {
     margin: 2rem 2.875rem 0 2.875rem;
   }
 
-  .card7 #p1 {
+  .card7 .p1 {
     margin: 2rem 2.875rem 0 2.875rem;
   }
 
@@ -1185,9 +1260,8 @@ button:active {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5em;
     max-width: 100%;
   }
 
@@ -1215,8 +1289,8 @@ button:active {
     width: 30%;
     margin-top: 12px;
     color: #ebebff;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.5em;
     max-width: 100%;
   }
 
@@ -1229,7 +1303,7 @@ button:active {
     transition: 0.5ms;
   }
 
-  #form {
+  .form {
     border-radius: 0;
     max-width: 100%;
   }
@@ -1268,8 +1342,9 @@ button:active {
   }
 
   nav .mylogo {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
     transition: 1s;
+    margin-top: 0.7rem;
   }
 
   .mylogo:hover {
@@ -1278,5 +1353,9 @@ button:active {
 
   nav li a:hover {
     color: #396df2;
+  }
+
+  #btnclose {
+    display: none;
   }
 }
