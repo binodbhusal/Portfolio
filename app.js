@@ -28,7 +28,6 @@ closeBtn.addEventListener('click', () => {
   menuLogo.style.visibility = 'visible';
   menuBar.style.transition = '0.2s';
 });
-<<<<<<< HEAD
 
 // Pup menu version Part--------------------------------------------------------------------
 const body = document.getElementById('project-section');
@@ -40,11 +39,11 @@ section.innerHTML = `
           <div class="card_container1">
             <img
               class="snap_img"
-              src="images/Snapshoot Portfolio (1).png"
+              src="images/screenshot1-project1.png"
               alt="project1"
             />
             <div class="card_content1">
-              <h3 class=title>Tonic</h3>
+              <h3 class=title>Awesome Boooks-ES6</h3>
               <ul class="first_list">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
@@ -278,9 +277,9 @@ section.innerHTML = `
 // objects stored in dynamic above-------------------------------------------------------
 const data = [
   {
-    name: 'Tonic',
+    name: 'Awesome Books-ES6',
     deskname: 'Tonic',
-    imageUrl: 'images/Snapshoot Portfolio (1).png',
+    imageUrl: 'images/screenshot1-project1.png',
     deskImageUrl: 'images/Snapshootdesktop.png',
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
 
@@ -288,7 +287,7 @@ const data = [
     description1: '<span><p id=desktext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p id=desktext>Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p></span>',
     technologies: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div>',
     technologies1: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
-    buttonUrl: 'https://example.com/card2',
+    buttonUrl: 'https://github.com/binodbhusal/Portfolio',
     buttonLabel: 'See Live',
     buttonUrl1: 'https://example.com/card2',
     buttonLabel1: 'See Source',
@@ -463,8 +462,6 @@ button8.addEventListener('click', () => {
 });
 
 // button click event ends------------------------------------------------------------------
-=======
->>>>>>> form-validation
 const form = document.querySelector('#myform');
 const emailCheck = form.querySelector('#email');
 const emailError = form.querySelector('#emailError');

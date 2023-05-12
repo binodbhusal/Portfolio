@@ -110,7 +110,9 @@ nav .mylogo {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 7.125rem 1.5rem 6.5rem 1.5rem;
 }
-
+#crdimg {
+  width: 90%;
+margin: auto;}
 .card_container1 {
   background-color: white;
   grid-column: 1/2;
@@ -1591,4 +1593,5 @@ button:active {
   #btnclose {
     display: none;
   }
+  
 }
