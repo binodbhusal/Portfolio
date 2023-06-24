@@ -168,6 +168,7 @@ margin: auto;}
   margin-top: 28px;
   margin-bottom: 1.75rem;
   margin-left: 1rem;
+  transition: 0.3s ease-in;
 }
 
 .second_line {
@@ -218,19 +219,12 @@ h3 {
 
 .second_list1 {
   background-color: #ebebff;
-<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
-=======
-  border-radius: 8px;
-  padding: 5px;
-  font-size: 12px;
-  line-height: 16px;
->>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
@@ -238,19 +232,12 @@ h3 {
 
 .second_list2 {
   background-color: #ebebff;
-<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
-=======
-  border-radius: 8px;
-  padding: 5px;
-  font-size: 12px;
-  line-height: 16px;
->>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
@@ -258,19 +245,12 @@ h3 {
 
 .second_list3 {
   background-color: #ebebff;
-<<<<<<< HEAD
   margin-right: 0.625rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
   padding: 0.3125rem;
   font-size: 0.75rem;
   line-height: 1rem;
-=======
-  border-radius: 8px;
-  padding: 5px;
-  font-size: 12px;
-  line-height: 16px;
->>>>>>> portfolio_pair
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-weight: 500;
@@ -552,6 +532,8 @@ h3 {
   margin-top: 1.375rem;
   margin-left: 1.5rem;
   margin-bottom: 3.75rem;
+  transition: 0.5 ease-in;
+  cursor: pointer;
 }
 
 .lang p {
@@ -664,11 +646,17 @@ h3 {
 .btn_project:hover {
   background-color: #396df2;
   color: #fff;
+  transition: 0.4s ease-in;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 #btnget:hover {
   background-color: #396df2;
   color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.06);
 }
 
 .skills p {
@@ -825,7 +813,7 @@ button:active {
 
   .popup {
     max-width: 100%;
-    margin: 24px auto;
+    margin: auto auto;
     padding: 25px 8px;
     height: 100%;
     background: #fff;
@@ -857,6 +845,7 @@ button:active {
     font-size: 25px;
     width: 10%;
     height: 8%;
+    cursor: pointer;
   }
 
   .card {
@@ -905,6 +894,7 @@ button:active {
     cursor: pointer;
     outline: none;
     border: none;
+    cursor: pointer;
   }
 
   #btncross {
@@ -922,7 +912,6 @@ button:active {
 }
 
 @media (min-width: 768px) {
-<<<<<<< HEAD
   /* popup section--------------------------------------- */
   .list-item span {
     display: inline-block;
@@ -1037,6 +1026,7 @@ button:active {
     color: #000;
     font-size: 30px;
     width: 10%;
+    cursor: pointer;
   }
 
   .descriptiontxt {
@@ -1061,15 +1051,6 @@ button:active {
 
   /* popup section end  */
 
-=======
-  #emailError {
-    color: red;
-    background: yellow;
-    margin-bottom: 10px;
-    margin-top: 0;
-  }
-
->>>>>>> form-validation
   .headline {
     background-image: url(images/headerimg.png);
     background-size: 97% 100%;
@@ -1168,7 +1149,9 @@ button:active {
   .card1 img {
     margin: 1.5rem;
     width: 100%;
-    height: auto;
+    height: 87%;
+    border-radius: 1em;
+   
   }
 
   .card1 {
@@ -1180,8 +1163,8 @@ button:active {
     height: auto;
     margin-bottom: 142px;
     padding-right: 3rem;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
-
   .card2 {
     grid-column: 2/3;
     background-color: #fff;
@@ -1191,6 +1174,7 @@ button:active {
     margin-bottom: 142px;
     margin-left: 0;
     height: auto;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card3 {
@@ -1201,6 +1185,7 @@ button:active {
     max-width: 100%;
     margin-bottom: 142px;
     height: auto;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card4 {
@@ -1211,18 +1196,23 @@ button:active {
     margin-bottom: 142px;
     padding-right: 3rem;
     max-width: 100%;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card4 img {
     width: 100%;
     margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-    height: auto;
+    width: 100%;
+    height: 87%;
+    border-radius: 1em;
   }
 
   .card5 img {
-    margin: 1.5rem;
+    margin: 2rem 1.5rem;
     width: 100%;
-    height: auto;
+    height: 86%;
+    border-radius: 1em;
+    
   }
 
   .card5 {
@@ -1234,6 +1224,7 @@ button:active {
     max-width: 100%;
     margin-bottom: 142px;
     padding-right: 3rem;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card6 {
@@ -1246,6 +1237,8 @@ button:active {
     height: auto;
     max-width: 100%;
     margin-bottom: 142px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+
   }
 
   .card7 {
@@ -1257,13 +1250,14 @@ button:active {
     max-width: 100%;
     height: auto;
     margin-bottom: 142px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card8 img {
-    width: 100%;
-    height: auto;
+    width: 92%;
+    height: 87%;
     margin: 1.5rem;
-    padding-right: 3rem;
+    border-radius: 1em;
   }
 
   .card8 {
@@ -1276,6 +1270,7 @@ button:active {
     max-width: 100%;
     height: auto;
     margin-bottom: 142px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
   }
 
   .card2 h3 {
@@ -1530,7 +1525,7 @@ button:active {
   }
 
   #textarea1 {
-    border-radius: 0;
+    border-radius: 8px;
     color: #b3bac5;
     font-size: 15px;
     font-weight: 400;
@@ -1539,7 +1534,7 @@ button:active {
   }
 
   .form1 {
-    border-radius: 0;
+    border-radius: 8px;
     max-width: 100%;
   }
 
@@ -1555,6 +1550,7 @@ button:active {
   .btnget:hover {
     background-color: #396df2;
     color: #fff;
+    cursor: pointer;
   }
 
   :hover::placeholder {
@@ -1592,6 +1588,7 @@ button:active {
 
   #btnclose {
     display: none;
+    cursor: pointer;
   }
   
 }
