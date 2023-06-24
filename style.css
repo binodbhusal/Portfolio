@@ -110,9 +110,12 @@ nav .mylogo {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   margin: 7.125rem 1.5rem 6.5rem 1.5rem;
 }
+
 #crdimg {
   width: 90%;
-margin: auto;}
+  margin: auto;
+}
+
 .card_container1 {
   background-color: white;
   grid-column: 1/2;
@@ -211,10 +214,8 @@ h3 {
 #second_list {
   margin: 1rem 0 0 0;
   padding: 0;
-=======
   float: left;
   gap: 10px;
->>>>>>> portfolio_pair
 }
 
 .second_list1 {
@@ -894,7 +895,6 @@ button:active {
     cursor: pointer;
     outline: none;
     border: none;
-    cursor: pointer;
   }
 
   #btncross {
@@ -1151,7 +1151,6 @@ button:active {
     width: 100%;
     height: 87%;
     border-radius: 1em;
-   
   }
 
   .card1 {
@@ -1163,8 +1162,9 @@ button:active {
     height: auto;
     margin-bottom: 142px;
     padding-right: 3rem;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
+
   .card2 {
     grid-column: 2/3;
     background-color: #fff;
@@ -1174,7 +1174,7 @@ button:active {
     margin-bottom: 142px;
     margin-left: 0;
     height: auto;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card3 {
@@ -1185,7 +1185,7 @@ button:active {
     max-width: 100%;
     margin-bottom: 142px;
     height: auto;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card4 {
@@ -1196,13 +1196,12 @@ button:active {
     margin-bottom: 142px;
     padding-right: 3rem;
     max-width: 100%;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card4 img {
     width: 100%;
     margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-    width: 100%;
     height: 87%;
     border-radius: 1em;
   }
@@ -1212,7 +1211,6 @@ button:active {
     width: 100%;
     height: 86%;
     border-radius: 1em;
-    
   }
 
   .card5 {
@@ -1224,7 +1222,7 @@ button:active {
     max-width: 100%;
     margin-bottom: 142px;
     padding-right: 3rem;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card6 {
@@ -1237,8 +1235,7 @@ button:active {
     height: auto;
     max-width: 100%;
     margin-bottom: 142px;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
-
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card7 {
@@ -1250,7 +1247,7 @@ button:active {
     max-width: 100%;
     height: auto;
     margin-bottom: 142px;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card8 img {
@@ -1270,7 +1267,7 @@ button:active {
     max-width: 100%;
     height: auto;
     margin-bottom: 142px;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .card2 h3 {
@@ -1590,5 +1587,4 @@ button:active {
     display: none;
     cursor: pointer;
   }
-  
 }
