@@ -39,27 +39,29 @@ section.innerHTML = `
           <div class="card_container1">
             <img
               class="snap_img"
-              src="images/screenshot1-project1.png"
+              src="images/bookstore.png"
               alt="project1"
             />
             <div class="card_content1">
-              <h3 class=title>Awesome Boooks-ES6</h3>
+              <h3 class=title>BookStore CMS</h3>
               <ul class="first_list">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">Back End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">2015</li>
+                <li class="backend">2023</li>
               </ul>
               <p class="second_line">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+              This project is a single page web application (SPA) 
+              that aims to provide a platform for users to browse books online.
               </p>
 
               <ul class="second_list">
                 <li class="second_list1">HTML</li>
                 <li class="second_list2">CSS</li>
                 <li class="second_list3">JAVA SCRIPT</li>
+                <li class="second_list3">REACT/REDUX</li>
+
               </ul>
 
               <button  class="btn_project">See Project</button>
@@ -69,27 +71,29 @@ section.innerHTML = `
           <div class="card_container2">
             <img
               class="snap_img"
-              src="images/Snapshoot Portfolio (3).png"
+              src="images/mathmagicians.png"
               alt="project2"
             />
             <div class="card_content2">
-              <h3>Multi-Post Stories</h3>
+              <h3>Math Magicians</h3>
               <ul class="first_list2">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">Back End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">2015</li>
+                <li class="backend">2023</li>
               </ul>
               <p class="second_line">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+              This project is React web application that allows users to perform basic
+               mathematical operations such as addition, subtraction, multiplication, and division.
               </p>
 
               <ul class="second_list_B">
                 <li class="second_list1B">HTML</li>
                 <li class="second_list2B">CSS</li>
                 <li class="second_list3B">JAVA SCRIPT</li>
+                <li class="second_list3B">REACT</li>
+
               </ul>
 
               <button id="btnprojrec2" class="btn_project">See Project</button>
@@ -99,21 +103,22 @@ section.innerHTML = `
           <div class="card_container3">
             <img
               class="snap_img"
-              src="images/Snapshoot Portfolio (2).png"
+              src="images/web3summit1.png"
               alt="project3"
             />
             <div class="card_content2">
-              <h3>Tonic</h3>
+              <h3>Web3 Summit</h3>
               <ul class="first_list3">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">Back End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">2015</li>
+                <li class="backend">2023</li>
               </ul>
               <p class="second_line">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+              The project for the Web3 Summit serves as the primary platform for 
+              communicating information about the event, including dates, speakers, 
+              workshops, and other important details.
               </p>
 
               <ul class="second_list_C">
@@ -129,21 +134,21 @@ section.innerHTML = `
           <div class="card_container4">
             <img
               class="snap_img"
-              src="images/Snapshoot Portfolio (4).png"
+              src="images/todo.png"
               alt="project4"
             />
             <div class="card_content4">
-              <h3>Mulit-Post Stories</h3>
+              <h3>Todos</h3>
               <ul class="first_list4">
                 <li class="canopy">CANOPY</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">Back End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">2015</li>
+                <li class="backend">2023</li>
               </ul>
               <p class="second_line">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+              A todo list project involves creating a simple web application where a 
+              user can add and remove tasks they want to complete.
               </p>
 
               <ul class="second_list_D">
@@ -164,30 +169,32 @@ section.innerHTML = `
 
           <!-- ------Card1 container--------------------- -->
          <div class="card1">
-            <img src="images/SnapshootPortfolio.png" alt="project1">
+            <img src="images/bookstore.png" alt="project1">
           </div>
 
           <!-- ------Card2 container--------------------- -->
           <div class="card2">
-            <h3>Tonic</h3>
+            <h3>BookStore CMS</h3>
            
             <ul class="first-ul">
               <li class="canopy">CANOPY</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
               <li class="backend">Back End Dev</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
-              <li class="backend">2015</li>
+              <li class="backend">2023</li>
             </ul>
             
             <p class="p1">
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required.
+            This project is a single page web application (SPA) that aims 
+            to provide a platform for users to browse books online.
             </p>
 
             <ul class="second-ul">
-              <li>html</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+
             </ul>
 
             <button  id="btnprojectdesktop1" class="btn_project">See Project</button>
@@ -195,79 +202,81 @@ section.innerHTML = `
 
           <!-- ------Card3 container--------------------- -->
           <div class="card3">
-            <h3>Multi-Post Stories</h3>
+            <h3>Math Magicians</h3>
             <ul class="first-ul">
-              <li class="canopy">FACEBOOK</li>
+              <li class="canopy">CALCULATOR</li>
               <img class="counter" src="images/Counter.png" alt="dotologo" />
               <li class="backend">Full Stack</li>
               <img class="counter" src="images/Counter.png" alt="dotologo" />
-              <li class="backend">2015</li>
+              <li class="backend">2023</li>
             </ul>
             <p class="p1">
-              Experimental content creation feature that 
-              allows users to add to an existing story over the course of a day without spamming their friends.
+            This project is React web application that allows users to perform 
+            basic mathematical operations such as addition, subtraction, multiplication, and division.
             </p>
             <ul class="second-ul">
-              <li>html</li>
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li>HTML</li>
+              <!-- <li>Ruby on rails</li>--!>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+
             </ul>
             <button id="btnprojectdesktop2" class="btn_project">See Project</button>
           </div>
         <!-- ------Card4 container--------------------- -->
         <div class="card4">
-          <img src="images/SnapshootPortfolio12.png" alt="project4">
+          <img src="images/mathmagicians.png" alt="project4">
         </div>
         <!-- ------Card5 container--------------------- -->
         <div class="card5">
-          <img src="images/SnapshootPortfoliocard5.png" alt="project5">
+          <img src="images/web3summit1.png" alt="project5">
         </div>
         <!-- ------Card6 container--------------------- -->
         <div class="card6">
-          <h3>Facebook 360</h3>
+          <h3>Web3 Summit</h3>
             <ul class="first-ul">
-              <li class="canopy">FACEBOOK</li>
+              <li class="canopy">CONFERENCE</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
               <li class="backend">Full Stack</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
-              <li class="backend">2015</li>
+              <li class="backend">2023</li>
             </ul>
             <p class="p1">
-              Exploring the future of media in 
-              Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+            The project for the Web3 Summit serves as the primary platform for communicating
+             information about the event, including dates, speakers, workshops, and other important details.
             </p>
             <ul class="second-ul">
-              <li>html</li>
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>javaScript</li>
+              <li>HTML</li>
+              <!-- <li>Ruby on rails</li>--!>
+              <li>CSS</li>
+              <li>JavaScript</li>
             </ul>
             <button id="btnprojectdesktop3" class="btn_project">See Project</button>
         </div>
         <div class="card7">
-          <h3>Uber Navigation</h3>
+          <h3>Todos</h3>
           <ul class="first-ul">
-            <li class="canopy">UBER</li>
+            <li class="canopy">TASKS</li>
             <img class="counter" src="images/Counter.png" alt="dotlogo" />
             <li class="backend">Lead Developer</li>
             <img class="counter" src="images/Counter.png" alt="dotologo" />
-            <li class="backend">2018</li>
+            <li class="backend">2023</li>
           </ul>
           <p class="p1">
-            A smart assistant to 
-            make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+          A todo list project involves 
+          creating a simple web application where a user can add and remove tasks they want to complete.
           </p>
           <ul class="second-ul">
-            <li>html</li>
-            <li>Ruby on rails</li>
-            <li>css</li>
-            <li>javaScript</li>
+            <li>HTML</li>
+            <!--<li>Ruby on rails</li>--!>
+            <li>CSS</li>
+            <li>JavaScript</li>
           </ul>
           <button id="btnprojectdesktop4" class="btn_project">See Project</button>
         </div>
         <div class="card8">
-          <img src="images/SnapshootPortfolio8.png" alt="project8">
+          <img src="images/todo.png" alt="project8">
         </div>
       </div>
     </section>
@@ -277,74 +286,77 @@ section.innerHTML = `
 // objects stored in dynamic above-------------------------------------------------------
 const data = [
   {
-    name: 'Book store',
-    deskname: 'Bookstore',
-    imageUrl: 'images/screenshot1-project1.png',
-    deskImageUrl: 'images/Snapshootdesktop.png',
+
+
+    name: 'BookStore CMS',
+    deskname: 'BookStore CMS',
+    imageUrl: 'images/bookstore.png',
+    deskImageUrl: 'images/bookstore.png',
+
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
 
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    description1: '<span><p id=desktext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p id=desktext>Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p></span>',
+    description: 'This project is a single page web application (SPA) that aims to provide a platform for users to browse books online. It serves as a virtual bookstore where users can explore a wide range of books, view book details, add books.',
+    description1: '<span><p id=desktext>This project is a single page web application (SPA) that aims to provide a platform for users to browse books online. It serves as a virtual bookstore where users can explore a wide range of books, view book details, add books.Overall, the Bookstore project aims to create an immersive and user-friendly online platform for book lovers to explore, discover, and add books conveniently.',
     technologies: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div>',
     technologies1: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
-    buttonUrl: 'https://github.com/binodbhusal/Portfolio',
+    buttonUrl: 'https://example.com/card2',
     buttonLabel: 'See Live',
-    buttonUrl1: 'https://example.com/card2',
+    buttonUrl1: 'https://github.com/binodbhusal/bookstore',
     buttonLabel1: 'See Source',
     button12Url: 'images/icon12.png',
     button2Url: 'images/github1.png',
   },
   {
-    name: 'Multi-post Stories',
-    deskname: 'Multi-post Stories',
-    imageUrl: 'images/Snapshoot Portfolio (3).png',
-    deskImageUrl: 'images/SnapshootPortfolio12.png',
+    name: 'Math Magicians',
+    deskname: 'Math Magicians',
+    imageUrl: 'images/mathmagicians1.png',
+    deskImageUrl: 'images/mathmagicians1.png',
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description1: '<span><p id=desktext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p id=desktext>Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p></span>',
+    description: 'This project is React web application that allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division.',
+    description1: '<span><p id=desktext>This project is React web application that allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division. It is designed to provide a simple and user-friendly interface for performing calculations.</p></span>',
     technologies: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div>',
     technologies1: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
-    buttonUrl: 'https://example.com/card2',
+    buttonUrl: 'https://math-magician-2l9g.onrender.com/',
     buttonLabel: 'See Live',
-    buttonUrl1: 'https://example.com/card2',
+    buttonUrl1: 'https://github.com/binodbhusal/math-magicians',
     buttonLabel1: 'See Source',
     button12Url: 'images/icon12.png',
     button2Url: 'images/github1.png',
   },
   {
-    name: 'Tonic',
-    deskname: 'Facebook 360',
-    imageUrl: 'images/Snapshoot Portfolio (2).png',
-    deskImageUrl: 'images/SnapshootPortfoliocard5.png',
+    name: 'Web3 Summit',
+    deskname: 'Web3 Summit',
+    imageUrl: 'images/web3summit.png',
+    deskImageUrl: 'images/web3summit.png',
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
 
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description1: '<span><p id=desktext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p id=desktext>Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p></span>',
+    description: 'The project for the Web3 Summit serves as the primary platform for communicating information about the event, including dates, speakers, workshops, and other important details.',
+    description1: '<span><p id=desktext>The project for the Web3 Summit serves as the primary platform for communicating information about the event, including dates, speakers, workshops, and other important details. The project is designed to provide attendees with a comprehensive overview of the event, as well as to facilitate registration and ticket sales.</p></span>',
     technologies: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div>',
     technologies1: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
 
-    buttonUrl: 'https://example.com/card2',
+    buttonUrl: 'https://binodbhusal.github.io/we3summit.guthub.io/',
     buttonLabel: 'See Live',
-    buttonUrl1: 'https://example.com/card2',
+    buttonUrl1: 'https://github.com/binodbhusal/Capstone-project-Conference-page',
     buttonLabel1: 'See Source',
     button12Url: 'images/icon12.png',
     button2Url: 'images/github1.png',
   },
   {
-    name: 'Multi-post Stories',
-    deskname: 'Uber-Navigation',
-    imageUrl: 'images/Snapshoot Portfolio (4).png',
-    deskImageUrl: 'images/SnapshootPortfolio8.png',
+    name: 'Todos',
+    deskname: 'Todos',
+    imageUrl: 'images/todo.png',
+    deskImageUrl: 'images/todo.png',
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
 
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description1: '<span><p id=desktext>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><p id=desktext>Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p></span>',
+    description: 'A todo list project involves creating a simple web application where a user can add and remove tasks they want to complete. The basic functionality includes the ability to add a new task, mark a task as completed, and delete a task from the list.',
+    description1: '<span><p id=desktext>A todo list project involves creating a simple web application where a user can add and remove tasks they want to complete. The basic functionality includes the ability to add a new task, mark a task as completed, and delete a task from the list.</p></span>',
     technologies: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div>',
     technologies1: '<div class="list-item"><span>HTML</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>javascript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
 
-    buttonUrl: 'https://example.com/card2',
+    buttonUrl: 'https://binodbhusal.github.io/todos.github.io/',
     buttonLabel: 'See Live',
-    buttonUrl1: 'https://example.com/card2',
+    buttonUrl1: 'https://github.com/binodbhusal/ToDoList',
     buttonLabel1: 'See Source',
     button12Url: 'images/icon12.png',
     button2Url: 'images/github1.png',
@@ -388,7 +400,7 @@ function displayCards(index) {
             <div class=column1 id=linkbutton>
            ${card.technologies1}
            <div id=tech1><a class= linkbtn href="${card.buttonUrl}">${card.buttonLabel}<img class=icon12 src="${card.button12Url}"></a>
-            <a class= linkbtn href="${card.buttonUrl1}">${card.buttonLabel}<img class=icon12 src="${card.button2Url}"></a>
+            <a class= linkbtn href="${card.buttonUrl1}">${card.buttonLabel1}<img class=icon12 src="${card.button2Url}"></a>
             </div>
             </div>
             </div>
@@ -408,7 +420,10 @@ function displayCards(index) {
 
   // popup overlay
   if (window.innerWidth > 768) {
-    popup.style.height = '1000px';
+    popup.style.height = '90%';
+    popup.style.width = '80%';
+    popup.style.margin = '0 10%';
+
     popup.style.position = 'Absolute';
   }
   const overlay = document.createElement('div');
