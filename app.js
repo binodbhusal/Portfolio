@@ -277,8 +277,8 @@ section.innerHTML = `
 // objects stored in dynamic above-------------------------------------------------------
 const data = [
   {
-    name: 'Awesome Books-ES6',
-    deskname: 'Tonic',
+    name: 'Book store',
+    deskname: 'Bookstore',
     imageUrl: 'images/screenshot1-project1.png',
     deskImageUrl: 'images/Snapshootdesktop.png',
     listItems1: '<span id=canopy>CANOPY<i class="fa-regular fa-circle counter"></i></span><span id=backend>Back end <i class="fa-regular fa-circle counter"></i>2015</span>',
