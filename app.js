@@ -45,9 +45,9 @@ section.innerHTML = `
             <div class="card_content1">
               <h3 class=title>BookStore CMS</h3>
               <ul class="first_list">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">Personal</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Front End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">2023</li>
               </ul>
@@ -64,9 +64,78 @@ section.innerHTML = `
 
               </ul>
 
-              <button  class="btn_project">See Project</button>
+              <button class="btn_project">See Project</button>
             </div>
           </div>
+          <!-- ------Add new-------------------- -->
+          <div class="card_container5">
+            <img
+              class="snap_img"
+              src="images/cryptofy.png"
+              alt="project1"
+            />
+            <div class="card_content5">
+              <h3 class=title>CRYPTOFY</h3>
+              <ul class="first_list">
+                <li class="canopy">Personal</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Front End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2023</li>
+              </ul>
+              <p class="second_line">
+              CRYPTOFY project is a web application 
+              that provides users with a comprehensive view of various 
+              cryptocurrency exchanges and their trading data.
+              </p>
+
+              <ul class="second_list">
+                <li class="second_list1">HTML</li>
+                <li class="second_list2">CSS</li>
+                <li class="second_list3">JAVA SCRIPT</li>
+                <li class="second_list3">REACT/REDUX</li>
+
+              </ul>
+
+              <button id="btnproject11" class="btn_project">See Project</button>
+            </div>
+          </div>
+
+          <!-- ------End new card --------------------- -->
+          <!-- ------Add new-------------------- -->
+          <div class="card_container6">
+            <img
+              class="snap_img"
+              src="images/spacehub.png"
+              alt="project1"
+            />
+            <div class="card_content6">
+              <h3 class=title>Space Hub</h3>
+              <ul class="first_list">
+                <li class="canopy">Personal</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">Front End Dev</li>
+                <img class="counter" src="images/Counter.png" alt="dotlogo" />
+                <li class="backend">2023</li>
+              </ul>
+              <p class="second_line">
+              Space Hub is a web application that provides information and services related to space exploration.
+              </p>
+
+              <ul class="second_list">
+                <li class="second_list1">HTML</li>
+                <li class="second_list2">CSS</li>
+                <li class="second_list3">JAVA SCRIPT</li>
+                <li class="second_list3">REACT/REDUX</li>
+
+              </ul>
+
+              <button id="btnproject12" class="btn_project">See Project</button>
+            </div>
+          </div>
+
+          <!-- ------End new card --------------------- -->
+          
           <!-- ------card container 2 --------------------- -->
           <div class="card_container2">
             <img
@@ -77,9 +146,9 @@ section.innerHTML = `
             <div class="card_content2">
               <h3>Math Magicians</h3>
               <ul class="first_list2">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">Personal</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Fornt End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">2023</li>
               </ul>
@@ -109,9 +178,9 @@ section.innerHTML = `
             <div class="card_content2">
               <h3>Web3 Summit</h3>
               <ul class="first_list3">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">Personal</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Front End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">2023</li>
               </ul>
@@ -140,9 +209,9 @@ section.innerHTML = `
             <div class="card_content4">
               <h3>Todos</h3>
               <ul class="first_list4">
-                <li class="canopy">CANOPY</li>
+                <li class="canopy">Personal</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
-                <li class="backend">Back End Dev</li>
+                <li class="backend">Front End Dev</li>
                 <img class="counter" src="images/Counter.png" alt="dotlogo" />
                 <li class="backend">2023</li>
               </ul>
@@ -177,9 +246,9 @@ section.innerHTML = `
             <h3>BookStore CMS</h3>
            
             <ul class="first-ul">
-              <li class="canopy">CANOPY</li>
+              <li class="canopy">Personal</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
-              <li class="backend">Back End Dev</li>
+              <li class="backend">Front End Dev</li>
               <img class="counter" src="images/Counter.png" alt="dotlogo" />
               <li class="backend">2023</li>
             </ul>
@@ -204,9 +273,9 @@ section.innerHTML = `
           <div class="card3">
             <h3>Math Magicians</h3>
             <ul class="first-ul">
-              <li class="canopy">CALCULATOR</li>
+              <li class="canopy">Personal</li>
               <img class="counter" src="images/Counter.png" alt="dotologo" />
-              <li class="backend">Full Stack</li>
+              <li class="backend">Front End Dev</li>
               <img class="counter" src="images/Counter.png" alt="dotologo" />
               <li class="backend">2023</li>
             </ul>
@@ -229,37 +298,39 @@ section.innerHTML = `
           <img src="images/mathmagicians.png" alt="project4">
         </div>
         <!-- ------Card5 container--------------------- -->
-        <div class="card5">
-          <img src="images/web3summit1.png" alt="project5">
-        </div>
-        <!-- ------Card6 container--------------------- -->
-        <div class="card6">
-          <h3>Web3 Summit</h3>
-            <ul class="first-ul">
-              <li class="canopy">CONFERENCE</li>
-              <img class="counter" src="images/Counter.png" alt="dotlogo" />
-              <li class="backend">Full Stack</li>
-              <img class="counter" src="images/Counter.png" alt="dotlogo" />
-              <li class="backend">2023</li>
-            </ul>
-            <p class="p1">
-            The project for the Web3 Summit serves as the primary platform for communicating
-             information about the event, including dates, speakers, workshops, and other important details.
-            </p>
-            <ul class="second-ul">
-              <li>HTML</li>
-              <!-- <li>Ruby on rails</li>--!>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <button id="btnprojectdesktop3" class="btn_project">See Project</button>
-        </div>
+        <!-- ------Card5 container--------------------- -->
+<div class="card5">
+  <img src="images/cryptofy.png" alt="project5">
+</div>
+<!-- ------Card6 container--------------------- -->
+<div class="card6">
+  <h3>CRYPTOFY</h3>
+    <ul class="first-ul">
+      <li class="canopy">Personal</li>
+      <img class="counter" src="images/Counter.png" alt="dotlogo" />
+      <li class="backend">Front End Dev</li>
+      <img class="counter" src="images/Counter.png" alt="dotlogo" />
+      <li class="backend">2023</li>
+    </ul>
+    <p class="p1">
+    CRYPTOFY project is a web application that provides users with a comprehensive 
+    view of various cryptocurrency exchanges and their trading data.
+
+    </p>
+    <ul class="second-ul">
+      <li>HTML/CSS</li>
+      <!-- <li>Ruby on rails</li>--!>
+      <li>React/Redux</li>
+      <li>JavaScript</li>
+    </ul>
+    <button id="btnprojectdesktop5" class="btn_project">See Project</button>
+</div>
         <div class="card7">
           <h3>Todos</h3>
           <ul class="first-ul">
-            <li class="canopy">TASKS</li>
+            <li class="canopy">Personal</li>
             <img class="counter" src="images/Counter.png" alt="dotlogo" />
-            <li class="backend">Lead Developer</li>
+            <li class="backend">Front End Dev</li>
             <img class="counter" src="images/Counter.png" alt="dotologo" />
             <li class="backend">2023</li>
           </ul>
@@ -278,6 +349,57 @@ section.innerHTML = `
         <div class="card8">
           <img src="images/todo.png" alt="project8">
         </div>
+<div class="card7">
+<h3>Space Hub</h3>
+<ul class="first-ul">
+  <li class="canopy">Personal</li>
+  <img class="counter" src="images/Counter.png" alt="dotlogo" />
+  <li class="backend">Front End Dev</li>
+  <img class="counter" src="images/Counter.png" alt="dotologo" />
+  <li class="backend">2023</li>
+</ul>
+<p class="p1">
+Space Hub is a web application that provides information and services related to space exploration.
+</p>
+<ul class="second-ul">
+  <li>HTML/CSS</li>
+  <!--<li>Ruby on rails</li>--!>
+  <li>React/Redux</li>
+  <li>JavaScript</li>
+</ul>
+<button id="btnprojectdesktop10" class="btn_project">See Project</button>
+</div>
+<div class="card8">
+<img src="images/spacehub.png" alt="project8">
+</div>
+<div class="card5">
+<img src="images/web3summit1.png" alt="project5">
+</div>
+<!-- ------Card6 container--------------------- -->
+<div class="card6">
+<h3>Web3 Summit</h3>
+  <ul class="first-ul">
+    <li class="canopy">Personal</li>
+    <img class="counter" src="images/Counter.png" alt="dotlogo" />
+    <li class="backend">Front End Dev</li>
+    <img class="counter" src="images/Counter.png" alt="dotlogo" />
+    <li class="backend">2023</li>
+  </ul>
+  <p class="p1">
+  The project for the Web3 Summit serves as the primary platform for communicating
+   information about the event, including dates, speakers, workshops, and other important details.
+  </p>
+  <ul class="second-ul">
+    <li>HTML</li>
+    <!-- <li>Ruby on rails</li>--!>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <button id="btnprojectdesktop3" class="btn_project">See Project</button>
+</div>
+
+
+
       </div>
     </section>
   </section>
@@ -354,6 +476,44 @@ const data = [
     buttonUrl: 'https://binodbhusal.github.io/todos.github.io/',
     buttonLabel: 'See Live',
     buttonUrl1: 'https://github.com/binodbhusal/ToDoList',
+    buttonLabel1: 'See Source',
+    button12Url: 'images/icon12.png',
+    button2Url: 'images/github1.png',
+  },
+  {
+    name: 'CRYPTOFY',
+    deskname: 'CRYPTOFY',
+    imageUrl: 'images/cryptofycode.png',
+    deskImageUrl: 'images/cryptofycode.png',
+    listItems1: '<span id=canopy>Personal<i class="fa-regular fa-circle counter"></i></span><span id=backend>Front End <i class="fa-regular fa-circle counter"></i>2023</span>',
+
+    description: 'CRYPTOFY project is a web application that provides users with a comprehensive view of various cryptocurrency exchanges and their trading data.',
+    description1: '<span><p id=desktext>CRYPTOFY project is a web application that provides users with a comprehensive view of various cryptocurrency exchanges and their trading data.',
+    technologies: '<div class="list-item"><span>HTML/CSS</span></div><div class="list-item"><span>React/Redux</span></div><div class="list-item"><span>JavaScript</span></div>',
+    technologies1: '<div class="list-item"><span>HTML/CSS</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>JavaScript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
+
+    buttonUrl: 'https://cryptofy.onrender.com/',
+    buttonLabel: 'See Live',
+    buttonUrl1: 'https://github.com/binodbhusal/cryptofy',
+    buttonLabel1: 'See Source',
+    button12Url: 'images/icon12.png',
+    button2Url: 'images/github1.png',
+  },
+  {
+    name: 'Space Hub',
+    deskname: 'Space Hub',
+    imageUrl: 'images/spacehubcode.png',
+    deskImageUrl: 'images/spacehubcode.png',
+    listItems1: '<span id=canopy>Personal<i class="fa-regular fa-circle counter"></i></span><span id=backend>Front End <i class="fa-regular fa-circle counter"></i>2023</span>',
+
+    description: 'Space Hub is a web application that provides information and services related to space exploration.',
+    description1: '<span><p id=desktext>Space Hub is a web application that provides information and services related to space exploration.',
+    technologies: '<div class="list-item"><span>HTML/CSS</span></div><div class="list-item"><span>React/Redux</span></div><div class="list-item"><span>JavaScript</span></div>',
+    technologies1: '<div class="list-item"><span>HTML/CSS</span></div><div class="list-item"><span>CSS</span></div><div class="list-item"><span>JavaScript</span></div><br><div class="list-item"><span>Ruby</span></div><div class="list-item"><span>Ruby on Rails</span></div>',
+
+    buttonUrl: 'https://spacehub-cbgn.onrender.com/',
+    buttonLabel: 'See Live',
+    buttonUrl1: 'https://github.com/binodbhusal/spacehub',
     buttonLabel1: 'See Source',
     button12Url: 'images/icon12.png',
     button2Url: 'images/github1.png',
@@ -440,10 +600,15 @@ const button1 = document.querySelector('.btn_project');
 const button2 = document.getElementById('btnprojrec2');
 const button3 = document.querySelector('.btn_project2');
 const button4 = document.querySelector('.btn_project3');
+const button11 = document.getElementById('btnproject11');
+const button12 = document.getElementById('btnproject12');
+
 const button5 = document.getElementById('btnprojectdesktop1');
 const button6 = document.getElementById('btnprojectdesktop2');
 const button7 = document.getElementById('btnprojectdesktop3');
 const button8 = document.getElementById('btnprojectdesktop4');
+const button9 = document.getElementById('btnprojectdesktop5');
+const button10 = document.getElementById('btnprojectdesktop10');
 
 // button selector end
 // display function ends-------------------------------------------------------
@@ -460,6 +625,12 @@ button3.addEventListener('click', () => {
 button4.addEventListener('click', () => {
   displayCards(3);
 });
+button11.addEventListener('click', () => {
+  displayCards(4);
+});
+button12.addEventListener('click', () => {
+  displayCards(5);
+});
 button5.addEventListener('click', () => {
   displayCards(0);
 });
@@ -472,7 +643,12 @@ button7.addEventListener('click', () => {
 button8.addEventListener('click', () => {
   displayCards(3);
 });
-
+button9.addEventListener('click', () => {
+  displayCards(4);
+});
+button10.addEventListener('click', () => {
+  displayCards(5);
+});
 // button click event ends------------------------------------------------------------------
 const form = document.querySelector('#myform');
 const emailCheck = form.querySelector('#email');

@@ -261,7 +261,7 @@ h3 {
 .card_container2 {
   background-color: #fff;
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 4/4;
   margin-bottom: 5.5rem;
   border-radius: 1rem;
 }
@@ -403,15 +403,63 @@ h3 {
 .card_container4 {
   background-color: white;
   grid-column: 1/2;
-  grid-row: 4/4;
+  grid-row: 6/6;
   border-radius: 1rem;
   margin-bottom: 0;
+}
+
+.card_container5 {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border-radius: 1rem;
+  margin-bottom: 5.5rem;
+}
+
+.card_container6 {
+  background-color: white;
+  grid-column: 1/2;
+  grid-row: 5/5;
+  border-radius: 1rem;
+  margin-bottom: 5.5rem;
+}
+
+.card_content6 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card_content5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .card_content4 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.card_container5 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.card_container6 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .card_container4 ul {
